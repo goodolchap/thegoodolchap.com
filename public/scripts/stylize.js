@@ -7,7 +7,7 @@
 */
 // Project Tabs
 function openProject(evt, project) {
-    var i, tabcontent, tablinks;
+    const i, tabcontent, tablinks;
     // get elements with class="tabcontent", hide them
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
