@@ -1,0 +1,45 @@
+{
+    "index" : [
+        { "src": "rockafella-min.jpg" },
+        { "src": "lions-min.jpg" },
+        { "src": "train-min.jpg" },
+        { "src": "shaded-min.jpg" },
+        { "src": "mood-min.jpg" },
+        { "src": "willoh-min.jpg" },
+        { "src": "bridge-min.jpg" },
+        { "src": "unc-min.jpg" },
+        { "src": "ifc-min.jpg" }
+    ],
+    "portraits": [
+        { "src": "saints-min.jpg" },
+        { "src": "pull-min.jpg" },
+        { "src": "laugh-min.jpg" },
+        { "src": "backed-min.jpg" },
+        { "src": "smoke-min.jpg" },
+        { "src": "crossed-min.jpg" },
+        { "src": "shaded-min.jpg" },
+        { "src": "mood-min.jpg" },
+        { "src": "travis-min.jpg" },
+        { "src": "carnival-min.jpg" },
+        { "src": "walk-min.jpg" },
+        { "src": "bomb-min.jpg" },
+        { "src": "willoh-min.jpg" }
+    ],
+    "cityscapes": [
+        { "src": "lions-min.jpg" },
+        { "src": "ifc-min.jpg" },
+        { "src": "bridge-min.jpg" },
+        { "src": "rockafella-min.jpg" },
+        { "src": "train-min.jpg" },
+        { "src": "lions-min.jpg" }
+    ],
+    "product": [
+        { "src" : "banned-min.jpg" },
+        { "src" : "bouncy-min.jpg" },
+        { "src" : "yeezy-min.jpg" },
+        { "src" : "dive-min.jpg" },
+        { "src" : "smash-min.jpg" },
+        { "src" : "rudimentary-min.jpg" },
+        { "src" : "smith-min.jpg" }
+    ]
+}

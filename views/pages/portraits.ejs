@@ -1,0 +1,24 @@
+<% include ../partials/header %>
+
+<h1>
+    <a href="/portfolio"><img class="icon" src="/img/logo.png"></a> portraits
+</h1>
+<p>
+    <a href="/cityscapes">cityscapes</a> /
+    <a href="/portfolio">🏠</a> /
+    <a href="/product">product</a> 
+</p>
+
+<div class="tab">
+  <div class="container">
+    <div id="portraits" class="constraint">
+      <% for (var i=0; i < data.portraits.length; i++) { %>
+        <div class="thumbnail">
+          <img src=/img/catalog/portraits/<%= data.portraits[i].src %>>
+        </div>
+      <% } %>  
+    </div>
+  </div>
+</div>
+
+<!-- <footer class="copyright">Copyright &#169; All rights reserved</footer> -->

@@ -1,0 +1,25 @@
+<% include ../partials/header %>
+
+<h1>
+    <a href="/portfolio"><img class="icon" src="/img/logo.png"></a> cityscapes
+</h1>
+<p>
+    <a href="/portraits">portraits</a> /
+    <a href="/portfolio">🏠</a> /
+    <a href="/product">product</a> 
+</p>
+
+<div class="tab">
+  <div class="container">
+    <div id="cityscapes" class="constraint">
+      <% for (var i=0; i < data.cityscapes.length; i++) { %>
+        <div class="thumbnail">
+          <img src=/img/catalog/cityscapes/<%= data.cityscapes[i].src %>>
+        </div>
+      <% } %>  
+    </div>
+  </div>
+</div>
+
+<!-- <footer class="copyright">Copyright &#169; All rights reserved</footer> -->
+<% include ../partials/footer %>

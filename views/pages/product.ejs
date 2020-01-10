@@ -1,0 +1,25 @@
+<% include ../partials/header %>
+
+<h1>
+    <a href="/portfolio"><img class="icon" src="/img/logo.png"></a> product
+</h1>
+<p>
+  <a href="/portraits">portraits</a> /
+  <a href="/portfolio">🏠</a> /
+  <a href="/cityscapes">cityscapes</a> 
+</p>
+
+<div class="tab">
+  <div class="container">
+    <div id="product" class="constraint">
+      <% for (var i=0; i < data.product.length; i++) { %>
+        <div class="thumbnail">
+          <img src=/img/catalog/product/<%= data.product[i].src %>>
+        </div>
+      <% } %>  
+    </div>
+  </div>
+</div>
+
+<!-- <footer class="copyright">Copyright &#169; All rights reserved</footer> -->
+<% include ../partials/footer %>
